@@ -6,20 +6,18 @@ It picks up where most beginner tutorials stop.
 
 ## Read it
 
-Once GitHub Pages is on for this repo, the site is at `https://<your-username>.github.io/fivem-handbook/`.
+**[1amzach.github.io/fivem-handbook](https://1amzach.github.io/fivem-handbook/)**
 
-To run it locally:
+## Contributing
+
+Spotted a mistake or want to add something? Pages are plain Markdown in `docs/guide`. Open an issue or a pull request.
+
+To preview your changes locally:
 
 ```bash
 npm install
 npm run dev
 ```
-
-Pages are plain Markdown in `docs/guide`. Edit one, and the dev server reloads.
-
-## Publishing
-
-`.github/workflows/deploy.yml` builds and publishes the site on every push to `main`. Turn it on once under **Settings → Pages → Source: GitHub Actions**. GitHub Pages needs the repo to be public on a free account.
 
 ## Support
 
