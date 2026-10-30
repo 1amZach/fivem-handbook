@@ -1,0 +1,24 @@
+/* Astra colours: violet from the logo star, teal from the neon name */
+:root {
+    --vp-c-brand-1: #7a1fd1;
+    --vp-c-brand-2: #8b2be2;
+    --vp-c-brand-3: #9c2cf1;
+    --vp-c-brand-soft: rgba(156, 44, 241, 0.14);
+    --vp-home-hero-name-color: transparent;
+    --vp-home-hero-name-background: linear-gradient(120deg, #9c2cf1 20%, #2bd9cc);
+    --vp-home-hero-image-background-image: linear-gradient(-45deg, #9c2cf1 50%, #2bd9cc 50%);
+    --vp-home-hero-image-filter: blur(56px);
+}
+
+.dark {
+    --vp-c-bg: #0b0918;
+    --vp-c-bg-alt: #0f0c22;
+    --vp-c-bg-soft: #15112e;
+    --vp-c-brand-1: #b56cff;
+    --vp-c-brand-2: #a24cf6;
+    --vp-c-brand-3: #9c2cf1;
+    --vp-c-tip-1: #2bd9cc;
+    --vp-c-tip-soft: rgba(43, 217, 204, 0.12);
+}
+
+.vp-doc a { text-decoration-color: rgba(156, 44, 241, 0.45); }

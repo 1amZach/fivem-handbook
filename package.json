@@ -1,0 +1,18 @@
+{
+  "name": "fivem-handbook",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A practical guide to writing modern FiveM resources",
+  "author": "IamZach",
+  "license": "MIT",
+  "homepage": "https://discord.gg/agn",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}
